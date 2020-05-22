@@ -18,7 +18,7 @@ The data was collected during the end of the month of April till the beginning o
 directly from Twitch.tv using the Twitch REST API. The collected data is of the top fifteen games
 from the specified time period. The games are spread across twelve genres mainly consisting the
 mostly viewed genres. For each of the top fifteen games, data is collected for the top two streamers.
-The resulting data is for around hundred and fifty users and thirty streamers.
+The resulting data is for around hundred and fifty thousand users and thirty streamers.
 
 Node List:
 
@@ -38,6 +38,14 @@ little complex and the filters available in the Gephi were not able to satisfy t
 Therefore preprocessing of nodes and edges was required to generate subgraphs for the queries
 and has been done with the help of python. Python has also been used for analysis of the generated
 subgraphs.
+
+### Graph Elements Details
+
+The graph totally contains 1,45,404 nodes where we have 30 streamers and the rest are the users.
+The total no of edges in the graph is 1,47,496 where each edge signifies a user watching a game
+being streamed by a streamer i.e. each edge connects a user with a streamer. All the edges have
+equal weight. The total number of games is 15 and each has been shown in the graph with a
+different color.
 
 
 
