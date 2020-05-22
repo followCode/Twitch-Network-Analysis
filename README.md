@@ -27,3 +27,17 @@ Node List:
 Edge List:
 
 ![Edge List](https://github.com/followCode/Twitch-Network-Analysis/blob/master/out2.png)
+
+
+## Graph Build Details
+
+### Tools Used
+
+The graph has been visualized and analyzed using Gephi. The queries regarding the graph were a
+little complex and the filters available in the Gephi were not able to satisfy the queries directly.
+Therefore preprocessing of nodes and edges was required to generate subgraphs for the queries
+and has been done with the help of python. Python has also been used for analysis of the generated
+subgraphs.
+
+
+
